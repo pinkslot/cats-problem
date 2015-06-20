@@ -73,6 +73,12 @@ $st_memory_limit_exceeded = 17;
 $st_ignore_submit = 18;
 $st_idleness_limit_exceeded = 19;
 
+# Values for generating requests
+$st_gen_request = 30;
+$st_gen_processing = 31;
+$st_generated = 32;
+$st_gen_error = 33;
+
 # Values for contest_problems.status.
 $problem_st_ready     = 0;
 $problem_st_suspended = 1;
@@ -82,6 +88,7 @@ $problem_st_hidden    = 3;
 # Values for problems.run_method.
 $rm_default = 0;
 $rm_interactive = 1;
+$rm_gen_problem = 2;
 
 $penalty = 20;
 

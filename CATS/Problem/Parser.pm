@@ -576,6 +576,7 @@ sub start_tag_Run
     my %methods = (
         default => $cats::rm_default,
         interactive => $cats::rm_interactive,
+        gen_problem => $cats::rm_gen_problem,
     );
     defined($self->{problem}{run_method} = $methods{$m})
         or $self->error("Unknown run method: '$m', must be one of: " . join ', ', keys %methods);
