@@ -14,6 +14,11 @@ $srole_root = 0;
 $srole_user = 1;
 $srole_contests_creator = 2;
 
+# Values sources.stype
+$solving = 0;
+$quiz_correct = 1;
+$quiz_problem = 2;
+
 # Values problem_sources.stype.
 $generator = 0;
 $solution = 1;
